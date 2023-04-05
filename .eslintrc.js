@@ -1,6 +1,6 @@
 module.exports = {
   "env": {
-    "browser": true,
+    "node": true,
     "es6": true,
     "jest/globals": true
   },
@@ -19,13 +19,14 @@ module.exports = {
     "react", "jest"
   ],
   "rules": {
+    "no-console": "off", 
     "indent": [
       "error",
         2
-      ],
+      ], 
     "linebreak-style": [
       "error",
-      "unix"
+      "windows"
     ],
     "quotes": [
       "error",
